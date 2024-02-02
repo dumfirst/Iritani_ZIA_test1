@@ -7,7 +7,7 @@
      #   }
    # }
 #}
-#provider "zia" {
+provider "zia" {
   # Configuration options
 resource "zia_url_categories" "test_example" {
   super_category      = "USER_DEFINED"
@@ -41,4 +41,4 @@ resource "zia_url_categories" "test_example" {
     ".uefa,com",
   ]
 }
-#}
+}
