@@ -20,7 +20,7 @@ resource "zia_url_categories" "test_example" {
   scopes {
     type = "LOCATION"
     scope_entities {
-      id = [33079472]
+      id = []
     }
     scope_group_member_entities {
       id = []
