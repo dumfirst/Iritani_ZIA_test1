@@ -1,7 +1,7 @@
 resource "zia_url_categories" "example" {
   super_category      = "USER_DEFINED"
-  configured_name     = "MCAS Unsanctioned Apps2"
-  description         = "MCAS Unsanctioned Apps2"
+  configured_name     = "custom url categories test"
+  description         = "MCAS Unsanctioned Apps2 Iritani test "
   keywords            = ["microsoft"]
   custom_category     = true
   db_categorized_urls = [".creditkarma.com", ".youku.com"]
@@ -27,6 +27,7 @@ resource "zia_url_categories" "example" {
     ".baidu.com",
     ".cnn.com",
     ".level3.com",
+    ".uefa,com",
   ]
 }
 
