@@ -9,7 +9,7 @@ terraform {
 }
 provider "zia" {
   # Configuration options
-resource "zia_url_categories" "example" {
+resource "zia_url_categories" "test_example" {
   super_category      = "USER_DEFINED"
   configured_name     = "custom url categories test"
   description         = "MCAS Unsanctioned Apps2 Iritani test "
